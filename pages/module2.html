@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 2 — WHO 5 Moments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/modules.css">
+</head>
+<body>
+
+  <!-- BACKGROUND BLOBS -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo">St. Therese <span>/ Hand Hygiene</span></div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="module1.html" class="active">Modules</a></li>
+      <li><a href="../index.html#video">Watch</a></li>
+      <li><a href="../index.html#why">Why It Matters</a></li>
+      <li><a href="../pages/quiz.html" class="nav-cta btn">Take the Quiz</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-text">
+      <div class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>/</span>
+        <a href="../index.html#modules">Modules</a>
+        <span>/</span>
+        Module 2
+      </div>
+      <div class="section-tag">Module 02</div>
+      <h1>The WHO <em>5 Moments</em></h1>
+      <div class="page-hero-meta">
+        <span class="meta-pill">📖 12 min read</span>
+        <span class="meta-pill">🎯 Intermediate</span>
+        <span class="meta-pill">✅ 5 Sections</span>
+      </div>
+    </div>
+    <div class="page-hero-badge">
+      <div class="badge-num">02</div>
+      <div class="badge-label">Module</div>
+    </div>
+  </div>
+
+  <!-- READING PROGRESS BAR -->
+  <div class="progress-bar-wrap">
+    <span class="progress-label">Reading progress</span>
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <span class="progress-pct" id="progressPct">0%</span>
+  </div>
+
+  <!-- CONTENT LAYOUT -->
+  <div class="module-layout">
+
+    <!-- Sidebar TOC -->
+    <aside class="module-toc">
+      <h4>Contents</h4>
+      <ul class="toc-list">
+        <li><a href="#s1" class="active">The Framework</a></li>
+        <li><a href="#s2">Moment 1 &amp; 2</a></li>
+        <li><a href="#s3">Moment 3</a></li>
+        <li><a href="#s4">Moments 4 &amp; 5</a></li>
+        <li><a href="#s5">Compliance &amp; Challenges</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="module-content">
+
+      <!-- Section 1 -->
+      <div class="content-section" id="s1">
+        <h2>The WHO 5 Moments Framework</h2>
+        <p>The <span class="key-term">WHO 5 Moments for Hand Hygiene</span> is a globally recognised evidence-based model that identifies the five critical points during patient care activities at which hand hygiene must be performed to interrupt the transmission of healthcare-associated pathogens.</p>
+        <p>This framework was developed as part of the WHO's First Global Patient Safety Challenge — "Clean Care is Safer Care" — and has been adopted by hospitals worldwide, including those under the DOH guidelines in the Philippines.</p>
+
+        <div class="info-box">
+          <strong>Why "Moments" not "Times"?</strong>
+          <p>The word "moment" is intentional. It refers to a specific point in time and space — directly before or after a contact — not just a general suggestion to wash hands frequently throughout the day.</p>
+        </div>
+
+        <figure class="content-img">
+          <img src="../assets/mod2.1.png" alt="WHO 5 Moments Diagram">
+          <figcaption>Figure 2.1 — The WHO My 5 Moments for Hand Hygiene model</figcaption>
+        </figure>
+
+        <p>The five moments are defined relative to the <span class="key-term">patient zone</span> — the space immediately surrounding the patient that includes the patient and their immediate environment (bed, bedside table, medical equipment in contact with the patient).</p>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="content-section" id="s2">
+        <h2>Moments 1 &amp; 2 — Before Patient Contact</h2>
+
+        <ul class="numbered-list">
+          <li>
+            <div class="n">1</div>
+            <div class="txt">
+              <strong>Before touching a patient</strong>
+              <span>Clean your hands before touching the patient when approaching them. This protects the patient against colonisation and infection from harmful germs on your hands.</span>
+            </div>
+          </li>
+        </ul>
+
+        <p>This moment applies whenever you enter the patient zone and make physical contact with the patient — even if the contact is a simple greeting handshake or pulse check. The risk is outward: your hands carry environmental germs to the patient.</p>
+
+        <div class="info-box">
+          <strong>Example scenarios — Moment 1</strong>
+          <p>Taking a pulse, assisting a patient to sit up, performing a physical assessment, applying a blood pressure cuff, or touching the patient's skin to reposition them.</p>
+        </div>
+
+        <ul class="numbered-list">
+          <li>
+            <div class="n">2</div>
+            <div class="txt">
+              <strong>Before a clean or aseptic procedure</strong>
+              <span>Clean your hands immediately before performing a clean or aseptic task. This protects the patient against microorganisms — including the patient's own flora — from entering their body.</span>
+            </div>
+          </li>
+        </ul>
+
+        <p>This moment is critical because it precedes a high-risk activity. Even if hands were cleaned at Moment 1, <strong>any contact with the patient environment between then and the procedure</strong> requires a repeat hand hygiene action at Moment 2.</p>
+
+        <div class="icon-grid">
+          <div class="icon-card">
+            <div class="ic">💉</div>
+            <div>
+              <h4>Injection / IV Line</h4>
+              <p>Any injection, IV insertion, or catheter manipulation requires Moment 2 compliance immediately prior.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">🩹</div>
+            <div>
+              <h4>Wound Care</h4>
+              <p>Dressing changes, wound irrigation, and suture removal are all aseptic procedures requiring clean hands.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="content-section" id="s3">
+        <h2>Moment 3 — After Body Fluid Exposure</h2>
+
+        <ul class="numbered-list">
+          <li>
+            <div class="n">3</div>
+            <div class="txt">
+              <strong>After body fluid exposure risk</strong>
+              <span>Clean your hands after an exposure risk to body fluids (and after glove removal). This protects you and the healthcare environment from harmful patient germs.</span>
+            </div>
+          </li>
+        </ul>
+
+        <p>Moment 3 is the most urgent of all five moments. It must be performed immediately after any contact with body fluids, mucous membranes, non-intact skin, or wound dressings — even when gloves were worn.</p>
+
+        <div class="info-box">
+          <strong>Gloves do not replace hand hygiene</strong>
+          <p>Gloves can have micro-perforations and may be contaminated during removal. Hand hygiene after glove removal is mandatory, not optional.</p>
+        </div>
+
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>Body Fluid</th>
+              <th>Moment 3 Required?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Blood</td><td>✅ Always</td></tr>
+            <tr><td>Urine / Faeces</td><td>✅ Always</td></tr>
+            <tr><td>Saliva / Sputum</td><td>✅ Always</td></tr>
+            <tr><td>Wound exudate</td><td>✅ Always</td></tr>
+            <tr><td>Vomit</td><td>✅ Always</td></tr>
+            <tr><td>Cerebrospinal fluid</td><td>✅ Always</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="content-section" id="s4">
+        <h2>Moments 4 &amp; 5 — After Patient Contact</h2>
+
+        <ul class="numbered-list">
+          <li>
+            <div class="n">4</div>
+            <div class="txt">
+              <strong>After touching a patient</strong>
+              <span>Clean your hands after touching the patient and after leaving the patient zone. This protects you and the healthcare environment from harmful patient germs.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">5</div>
+            <div class="txt">
+              <strong>After touching patient surroundings</strong>
+              <span>Clean your hands after touching any object or furniture in the patient's immediate surroundings, when leaving — even if the patient was not touched.</span>
+            </div>
+          </li>
+        </ul>
+
+        <p>Moments 4 and 5 are often confused because they both occur after leaving the patient zone. The key distinction is that <span class="key-term">Moment 4</span> applies when the patient was directly touched, while <span class="key-term">Moment 5</span> applies even when only the patient's environment (e.g., adjusting an IV stand, writing on a whiteboard in the room) was contacted.</p>
+
+        <figure class="content-img">
+          <img src="../assets/mod2.2.jpg" alt="Patient Zone">
+          <figcaption>Figure 2.2 — The patient zone includes the patient and all surfaces/objects within their immediate environment</figcaption>
+        </figure>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="content-section" id="s5">
+        <h2>Compliance &amp; Common Challenges</h2>
+        <p>Despite widespread education, global hand hygiene compliance among healthcare workers averages between 38–50%. Understanding why compliance fails is as important as knowing the technique itself.</p>
+
+        <div class="icon-grid">
+          <div class="icon-card">
+            <div class="ic">⏱️</div>
+            <div>
+              <h4>Time Pressure</h4>
+              <p>High patient-to-nurse ratios and busy shifts make it tempting to skip moments, especially low-risk-seeming ones.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">🖐️</div>
+            <div>
+              <h4>Skin Irritation</h4>
+              <p>Repeated handwashing causes dryness and dermatitis, which can discourage compliance over long shifts.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">🚫</div>
+            <div>
+              <h4>Dispenser Placement</h4>
+              <p>If ABHR dispensers are not within arm's reach at the point of care, compliance drops significantly.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">💭</div>
+            <div>
+              <h4>Perceived Low Risk</h4>
+              <p>Workers may underestimate transmission risk for "minor" contacts like touching bed linen or checking a chart.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <strong>Remember</strong>
+          <p>No moment is optional. Each of the 5 Moments has been specifically validated through epidemiological evidence to represent a genuine transmission risk if skipped.</p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- MODULE NAV -->
+  <div class="module-nav">
+    <a href="module1.html" class="mod-nav-btn">← Module 1: Basics</a>
+    <a href="module3.html" class="mod-nav-btn primary">Module 3: ABHR →</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">
+      <div class="nav-logo">St. Therese <span>/ Hand Hygiene</span></div>
+      <p>An educational portal by Batangas State University — College of Health Sciences, developed for NCM 110L Nursing Informatics Laboratory.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Modules</h5>
+      <a href="module1.html">Module 1 — Basics</a>
+      <a href="module2.html">Module 2 — WHO 5 Moments</a>
+      <a href="module3.html">Module 3 — ABHR</a>
+      <a href="quiz.html">Quiz</a>
+    </div>
+    <div class="footer-col">
+      <h5>Portal</h5>
+      <a href="../index.html">Home</a>
+      <a href="../index.html#video">Watch</a>
+      <a href="../index.html#why">Why It Matters</a>
+    </div>
+  </footer>
+  <div class="footer-bottom">
+    © 2025 St. Therese de Lisieux Women &amp; Children Medical Center — Hand Hygiene Portal. All rights reserved.
+  </div>
+
+  <script src="../scripts/module.js"></script>
+</body>
+</html>

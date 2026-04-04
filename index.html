@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hand Hygiene Portal — St. Therese de Lisieux</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BACKGROUND BLOBS -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- WELCOME POPUP -->
+  <div class="popup-overlay" id="popup">
+    <div class="popup-box">
+      <button class="popup-close" onclick="closePopup()">&#10005;</button>
+      <div class="popup-icon">🏥</div>
+      <h2>Welcome to St. Therese de Lisieux</h2>
+      <p>Women and Children Medical Center's Hand Hygiene Educational Portal — helping healthcare workers protect patients through proper hygiene practices.</p>
+      <a class="btn btn-primary" style="display:inline-flex;justify-content:center;" onclick="closePopup()">Enter Portal</a>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo">St. Therese <span>/ Hand Hygiene</span></div>
+    <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#modules">Modules</a></li>
+      <li><a href="#video">Watch</a></li>
+      <li><a href="#why">Why It Matters</a></li>
+      <li><a href="pages/quiz.html" class="nav-cta btn">Take the Quiz</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow">NCM 110L — Nursing Informatics</div>
+      <h1>Clean Hands<br>Save <em>Lives.</em></h1>
+      <p class="hero-sub">A dedicated learning portal for healthcare students and workers on the science, practice, and importance of proper hand hygiene in clinical settings.</p>
+      <div class="btn-group">
+        <a href="#modules" class="btn btn-primary">Start Learning</a>
+        <a href="#why" class="btn btn-outline">Why It Matters</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <img src="assets/tn1.png" alt="Hand Hygiene">
+      </div>
+      <div class="floating-badge">
+        <div class="badge-icon">🧼</div>
+        <div class="badge-text">
+          <strong>20 Seconds</strong>
+          <span>Recommended wash time</span>
+        </div>
+      </div>
+      <div class="corner-tag">WHO Guideline</div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="num">80%</div>
+      <div class="label">of infections spread by hands</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">5 Steps</div>
+      <div class="label">in the WHO hand-wash technique</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">↓ 50%</div>
+      <div class="label">reduction in HAIs with proper hygiene</div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-tag">About the Portal</div>
+    <h2 class="section-title">Why Hand Hygiene<br>is Our First Defence</h2>
+
+    <div class="about-grid">
+      <div class="about-img">
+        <img src="assets/hospital.jpg" alt="Hospital">
+      </div>
+      <div class="about-body">
+        <p>In healthcare settings like St. Therese de Lisieux Women and Children Medical Center, patients — especially newborns and children — often have vulnerable immune systems. A single lapse in hand hygiene can lead to life-threatening hospital-acquired infections (HAIs).</p>
+        <p>This portal was built to make hand hygiene education accessible, engaging, and effective for nursing students and healthcare professionals alike.</p>
+
+        <div class="step-list">
+          <div class="step-item">
+            <div class="step-num">01</div>
+            <div class="step-text">
+              <strong>Wet your hands</strong>
+              <span>Use clean, running water — warm or cold.</span>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-num">02</div>
+            <div class="step-text">
+              <strong>Apply soap &amp; lather</strong>
+              <span>Cover all surfaces including backs and between fingers.</span>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-num">03</div>
+            <div class="step-text">
+              <strong>Scrub for 20+ seconds</strong>
+              <span>Focus on fingertips, nails, and wrists.</span>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-num">04</div>
+            <div class="step-text">
+              <strong>Rinse &amp; dry thoroughly</strong>
+              <span>Use a clean towel or air dry completely.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARNING MODULES -->
+  <section class="modules-section" id="modules">
+    <div class="section-tag">Learning Modules</div>
+    <h2 class="section-title">Explore the Curriculum</h2>
+ 
+    <div class="modules-grid">
+      <div class="module-card">
+        <div class="card-img">
+          <img src="assets/mod1.png" alt="Module 1">
+        </div>
+        <div class="card-body">
+          <div class="card-tag">Module 01</div>
+          <h3>Basics of Hand Hygiene</h3>
+          <p>Understand why hands are the primary vehicle for pathogen transmission and how proper technique breaks the chain of infection.</p>
+          <a href="pages/module1.html" class="card-link">Read module</a>
+        </div>
+      </div>
+ 
+      <div class="module-card">
+        <div class="card-img">
+          <img src="assets/mod2.png" alt="Module 2">
+        </div>
+        <div class="card-body">
+          <div class="card-tag">Module 02</div>
+          <h3>WHO 5 Moments</h3>
+          <p>Explore the five critical moments when healthcare workers must perform hand hygiene to protect patients and themselves.</p>
+          <a href="pages/module2.html" class="card-link">Read module</a>
+        </div>
+      </div>
+ 
+      <div class="module-card">
+        <div class="card-img">
+          <img src="assets/mod3.jpg" alt="Module 3">
+        </div>
+        <div class="card-body">
+          <div class="card-tag">Module 03</div>
+          <h3>Alcohol-Based Rubs</h3>
+          <p>Learn when to use ABHR versus soap and water, and understand the science of how each method eliminates pathogens.</p>
+          <a href="pages/module3.html" class="card-link">Read module</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO SECTION -->
+  <section class="video-section" id="video">
+    <div class="section-tag">Watch &amp; Learn</div>
+    <h2 class="section-title">Featured Video Resources</h2>
+    <p class="section-desc">Watch curated educational videos on hand hygiene techniques, infection control, and WHO guidelines.</p>
+
+    <div class="video-grid">
+
+      <!-- Main Player -->
+      <div class="video-main">
+        <div class="video-thumb" id="main-play-btn">
+          <img id="main-video-thumb" src="https://placehold.co/800x450/1a0d12/f4a7bc?text=WHO+Hand+Hygiene+Video" alt="Featured Video">
+          <div class="yt-badge">
+            <svg width="14" height="10" viewBox="0 0 14 10" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.7 1.56A1.76 1.76 0 0 0 12.46.3C11.37 0 7 0 7 0S2.63 0 1.54.3A1.76 1.76 0 0 0 .3 1.56 18.5 18.5 0 0 0 0 5a18.5 18.5 0 0 0 .3 3.44A1.76 1.76 0 0 0 1.54 9.7C2.63 10 7 10 7 10s4.37 0 5.46-.3a1.76 1.76 0 0 0 1.24-1.26A18.5 18.5 0 0 0 14 5a18.5 18.5 0 0 0-.3-3.44ZM5.6 7.14V2.86L9.24 5 5.6 7.14Z"/>
+            </svg>
+            YouTube
+          </div>
+          <div class="play-btn">▶</div>
+        </div>
+        <div class="video-meta">
+          <h3 id="main-video-title">WHO Hand Hygiene: How to Handrub</h3>
+          <p id="main-video-desc">World Health Organization · Official Guide</p>
+          <span class="duration" id="main-video-duration">▶  1:26</span>
+        </div>
+      </div>
+
+      <!-- Playlist Sidebar (populated by main.js) -->
+      <div class="video-playlist" id="playlist"></div>
+
+    </div>
+  </section>
+
+  <!-- WHY IT MATTERS -->
+  <section id="why">
+    <div class="section-tag">Importance</div>
+    <h2 class="section-title">The Impact of Clean Hands</h2>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">👶</div>
+        <div>
+          <h4>Protecting Vulnerable Patients</h4>
+          <p>Newborns and young children have developing immune systems, making them especially susceptible to hospital-acquired infections.</p>
+        </div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🛡️</div>
+        <div>
+          <h4>Healthcare Worker Safety</h4>
+          <p>Proper hand hygiene protects nurses and doctors from contracting and spreading pathogens between patient encounters.</p>
+        </div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📉</div>
+        <div>
+          <h4>Reducing HAIs</h4>
+          <p>Hospital-acquired infections can be reduced by up to 50% simply through consistent, proper hand hygiene compliance.</p>
+        </div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚖️</div>
+        <div>
+          <h4>Professional Responsibility</h4>
+          <p>Hand hygiene is embedded in nursing standards of care and is a core component of every nurse's duty of practice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <div class="banner">
+    <div class="banner-text">
+      <h2>Ready to Test Your Knowledge?</h2>
+      <p>Take the module quiz and earn your hygiene certification badge.</p>
+    </div>
+    <a href="pages/quiz.html" class="btn-white">Start the Quiz →</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">
+      <div class="nav-logo">St. Therese <span>/ Hand Hygiene</span></div>
+      <p>An educational portal by Batangas State University — College of Health Sciences, developed for NCM 110L Nursing Informatics Laboratory.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigate</h5>
+      <a href="#">Home</a>
+      <a href="#modules">Learning Modules</a>
+      <a href="#video">Watch</a>
+      <a href="#why">Why It Matters</a>
+      <a href="#">Quiz</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="#">Feedback Form</a>
+      <a href="#">Batangas State University</a>
+      <a href="#">College of Health Sciences</a>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    © 2025 St. Therese de Lisieux Women &amp; Children Medical Center — Hand Hygiene Portal. All rights reserved.
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

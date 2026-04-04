@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 3 — Alcohol-Based Hand Rubs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/modules.css">
+</head>
+<body>
+
+  <!-- BACKGROUND BLOBS -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo">St. Therese <span>/ Hand Hygiene</span></div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="module1.html" class="active">Modules</a></li>
+      <li><a href="../index.html#video">Watch</a></li>
+      <li><a href="../index.html#why">Why It Matters</a></li>
+      <li><a href="../pages/quiz.html" class="nav-cta btn">Take the Quiz</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-text">
+      <div class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>/</span>
+        <a href="../index.html#modules">Modules</a>
+        <span>/</span>
+        Module 3
+      </div>
+      <div class="section-tag">Module 03</div>
+      <h1>Alcohol-Based <em>Hand Rubs</em></h1>
+      <div class="page-hero-meta">
+        <span class="meta-pill">📖 11 min read</span>
+        <span class="meta-pill">🎯 Intermediate</span>
+        <span class="meta-pill">✅ 4 Sections</span>
+      </div>
+    </div>
+    <div class="page-hero-badge">
+      <div class="badge-num">03</div>
+      <div class="badge-label">Module</div>
+    </div>
+  </div>
+
+  <!-- READING PROGRESS BAR -->
+  <div class="progress-bar-wrap">
+    <span class="progress-label">Reading progress</span>
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <span class="progress-pct" id="progressPct">0%</span>
+  </div>
+
+  <!-- CONTENT LAYOUT -->
+  <div class="module-layout">
+
+    <!-- Sidebar TOC -->
+    <aside class="module-toc">
+      <h4>Contents</h4>
+      <ul class="toc-list">
+        <li><a href="#s1" class="active">What is ABHR?</a></li>
+        <li><a href="#s2">How It Works</a></li>
+        <li><a href="#s3">ABHR vs Soap &amp; Water</a></li>
+        <li><a href="#s4">Correct Technique</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="module-content">
+
+      <!-- Section 1 -->
+      <div class="content-section" id="s1">
+        <h2>What is ABHR?</h2>
+        <p><span class="key-term">Alcohol-Based Hand Rub (ABHR)</span> is a gel, solution, or foam containing alcohol (typically ethanol or isopropanol at 60–80% concentration) formulated specifically for hand disinfection in healthcare settings. It is the WHO-preferred method for routine hand hygiene when hands are not visibly soiled.</p>
+        <p>ABHR was recommended as the gold standard for routine hand hygiene in healthcare settings by the WHO's 2009 Hand Hygiene Guidelines, a position reaffirmed across all subsequent evidence reviews.</p>
+
+        <figure class="content-img">
+          <img src="../assets/mod3.1.png" alt="ABHR dispenser">
+          <figcaption>Figure 3.1 — ABHR dispensers should be placed at the point of care for maximum accessibility</figcaption>
+        </figure>
+
+        <div class="info-box">
+          <strong>Why alcohol?</strong>
+          <p>Alcohol denatures proteins and disrupts cell membranes of microorganisms, killing most bacteria, fungi, and enveloped viruses (including SARS-CoV-2) within 20–30 seconds of contact time.</p>
+        </div>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="content-section" id="s2">
+        <h2>How ABHR Works</h2>
+        <p>The antimicrobial activity of ABHR depends on the alcohol concentration, the volume applied, and the duration of hand coverage during application. Understanding this mechanism helps explain both its effectiveness and its limitations.</p>
+
+        <div class="icon-grid">
+          <div class="icon-card">
+            <div class="ic">🔬</div>
+            <div>
+              <h4>Protein Denaturation</h4>
+              <p>Alcohol disrupts hydrogen bonds in microbial proteins, causing them to lose structure and function — killing the organism.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">💧</div>
+            <div>
+              <h4>Membrane Disruption</h4>
+              <p>Alcohol dissolves lipid membranes of enveloped viruses and bacteria, rapidly destroying their integrity.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">⚡</div>
+            <div>
+              <h4>Rapid Action</h4>
+              <p>ABHR achieves log₅ bacterial reduction in under 30 seconds — far faster than a standard soap-and-water handwash.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">🛡️</div>
+            <div>
+              <h4>Residual Effect</h4>
+              <p>Some ABHR formulations include emollients that support skin integrity and minor persistent antimicrobial action.</p>
+            </div>
+          </div>
+        </div>
+
+        <p>ABHR does <strong>not</strong> work against <span class="key-term">Clostridioides difficile (C. diff)</span> spores or norovirus, because these organisms lack lipid envelopes or produce resistant spore coats. This is why soap and water is mandated in C. diff outbreak situations — the mechanical friction washes spores off the skin rather than killing them.</p>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="content-section" id="s3">
+        <h2>ABHR vs Soap &amp; Water</h2>
+        <p>Knowing which method to use in which situation is a core clinical competency. The decision should be based on the level and type of contamination, not on convenience.</p>
+
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>Factor</th>
+              <th>ABHR</th>
+              <th>Soap &amp; Water</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Time required</td>
+              <td>20–30 seconds</td>
+              <td>40–60 seconds</td>
+            </tr>
+            <tr>
+              <td>Visibly soiled hands</td>
+              <td>❌ Not suitable</td>
+              <td>✅ Required</td>
+            </tr>
+            <tr>
+              <td>C. difficile / norovirus</td>
+              <td>❌ Not effective</td>
+              <td>✅ Required</td>
+            </tr>
+            <tr>
+              <td>Most bacteria &amp; viruses</td>
+              <td>✅ Highly effective</td>
+              <td>✅ Effective</td>
+            </tr>
+            <tr>
+              <td>Skin tolerability</td>
+              <td>✅ Better (with emollients)</td>
+              <td>⚠️ More drying</td>
+            </tr>
+            <tr>
+              <td>Point-of-care use</td>
+              <td>✅ Preferred</td>
+              <td>⚠️ Requires sink access</td>
+            </tr>
+            <tr>
+              <td>After toilet use</td>
+              <td>❌ Not acceptable</td>
+              <td>✅ Required</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="info-box">
+          <strong>Default rule</strong>
+          <p>Use ABHR for all routine hand hygiene moments unless one of the mandatory soap-and-water situations applies. When in doubt, use soap and water — it is never the wrong choice, just the slower one.</p>
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="content-section" id="s4">
+        <h2>Correct ABHR Technique</h2>
+        <p>The WHO-recommended ABHR technique covers all hand surfaces in a standardised sequence. The entire procedure should take <strong>20–30 seconds</strong> and use enough product to keep hands moist throughout all steps.</p>
+
+        <ul class="numbered-list">
+          <li>
+            <div class="n">1</div>
+            <div class="txt">
+              <strong>Apply one palmful of product</strong>
+              <span>Dispense enough ABHR to cover all surfaces. Cup the product in your palm before beginning.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">2</div>
+            <div class="txt">
+              <strong>Rub palms together</strong>
+              <span>Rub palm to palm with fingers extended until product is evenly spread across both palms.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">3</div>
+            <div class="txt">
+              <strong>Right palm over left dorsum &amp; vice versa</strong>
+              <span>Interlace fingers and rub the back of each hand with the opposite palm to cover dorsal surfaces.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">4</div>
+            <div class="txt">
+              <strong>Palm to palm, fingers interlaced</strong>
+              <span>Rub between fingers with palms facing — this covers the interdigital spaces.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">5</div>
+            <div class="txt">
+              <strong>Backs of fingers to opposing palms</strong>
+              <span>Interlock fingers (knuckle-to-palm) and rub to cover the backs of the fingers and knuckle creases.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">6</div>
+            <div class="txt">
+              <strong>Rotational rubbing of thumbs</strong>
+              <span>Clasp each thumb in the opposite palm and rotate. Thumbs are frequently missed.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">7</div>
+            <div class="txt">
+              <strong>Rotational rubbing of fingertips</strong>
+              <span>Rub fingertips of each hand in the opposite palm in a circular motion to cover nail folds and fingertips.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">8</div>
+            <div class="txt">
+              <strong>Once dry, hands are safe</strong>
+              <span>Do not rinse or dry with a towel. ABHR must air-dry completely for full efficacy. If hands are still wet, more product was needed.</span>
+            </div>
+          </li>
+        </ul>
+
+        <figure class="content-img">
+          <img src="../assets/mod3.2.png" alt="WHO ABHR Technique">
+          <figcaption>Figure 3.2 — The WHO 6-step hand hygiene technique for alcohol-based hand rub</figcaption>
+        </figure>
+
+        <div class="info-box">
+          <strong>Common mistakes to avoid</strong>
+          <p>Using too little product (hands dry before step 4), skipping thumbs and fingertips, wiping hands on clothing before dry, and applying ABHR over visibly dirty hands.</p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- MODULE NAV -->
+  <div class="module-nav">
+    <a href="module2.html" class="mod-nav-btn">← Module 2: WHO 5 Moments</a>
+    <a href="quiz.html" class="mod-nav-btn primary">Take the Quiz →</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">
+      <div class="nav-logo">St. Therese <span>/ Hand Hygiene</span></div>
+      <p>An educational portal by Batangas State University — College of Health Sciences, developed for NCM 110L Nursing Informatics Laboratory.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Modules</h5>
+      <a href="module1.html">Module 1 — Basics</a>
+      <a href="module2.html">Module 2 — WHO 5 Moments</a>
+      <a href="module3.html">Module 3 — ABHR</a>
+      <a href="quiz.html">Quiz</a>
+    </div>
+    <div class="footer-col">
+      <h5>Portal</h5>
+      <a href="../index.html">Home</a>
+      <a href="../index.html#video">Watch</a>
+      <a href="../index.html#why">Why It Matters</a>
+    </div>
+  </footer>
+  <div class="footer-bottom">
+    © 2025 St. Therese de Lisieux Women &amp; Children Medical Center — Hand Hygiene Portal. All rights reserved.
+  </div>
+
+  <script src="../scripts/module.js"></script>
+</body>
+</html>

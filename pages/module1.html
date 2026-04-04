@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 1 — Basics of Hand Hygiene</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/modules.css">
+</head>
+<body>
+
+  <!-- BACKGROUND BLOBS -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo">St. Therese <span>/ Hand Hygiene</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="module1.html" class="active">Modules</a></li>
+      <li><a href="index.html#video">Watch</a></li>
+      <li><a href="index.html#why">Why It Matters</a></li>
+      <li><a href="quiz.html" class="nav-cta btn">Take the Quiz</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-text">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <a href="index.html#modules">Modules</a>
+        <span>/</span>
+        Module 1
+      </div>
+      <div class="section-tag">Module 01</div>
+      <h1>Basics of <em>Hand Hygiene</em></h1>
+      <div class="page-hero-meta">
+        <span class="meta-pill">📖 10 min read</span>
+        <span class="meta-pill">🎯 Foundational</span>
+        <span class="meta-pill">✅ 4 Sections</span>
+      </div>
+    </div>
+    <div class="page-hero-badge">
+      <div class="badge-num">01</div>
+      <div class="badge-label">Module</div>
+    </div>
+  </div>
+
+  <!-- READING PROGRESS BAR -->
+  <div class="progress-bar-wrap">
+    <span class="progress-label">Reading progress</span>
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <span class="progress-pct" id="progressPct">0%</span>
+  </div>
+
+  <!-- CONTENT LAYOUT -->
+  <div class="module-layout">
+
+    <!-- Sidebar TOC -->
+    <aside class="module-toc">
+      <h4>Contents</h4>
+      <ul class="toc-list">
+        <li><a href="#s1" class="active">What is Hand Hygiene?</a></li>
+        <li><a href="#s2">Why Hands Spread Infection</a></li>
+        <li><a href="#s3">Types of Hand Hygiene</a></li>
+        <li><a href="#s4">When to Clean Your Hands</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="module-content">
+
+      <!-- Section 1 -->
+      <div class="content-section" id="s1">
+        <h2>What is Hand Hygiene?</h2>
+        <p>Hand hygiene refers to any action of hand cleaning — the act of removing or killing microorganisms on the hands to prevent the spread of infection. It is widely recognised as the single most important practice in preventing healthcare-associated infections (HAIs).</p>
+        <p>The World Health Organization (WHO) defines hand hygiene as a general term referring to any action of hand cleansing, including the use of <span class="key-term">alcohol-based hand rub (ABHR)</span> or handwashing with soap and water.</p>
+
+        <div class="info-box">
+          <strong>Key fact</strong>
+          <p>Healthcare workers' hands are the most common vehicle for the transmission of healthcare-associated pathogens from patient to patient and within the healthcare environment.</p>
+        </div>
+
+        <figure class="content-img">
+          <img src="../assets/mod1.1.png" alt="Hand Hygiene Overview">
+          <figcaption>Figure 1.1 — Overview of hand hygiene in clinical settings</figcaption>
+        </figure>
+
+        <p>Proper hand hygiene is not merely a clinical recommendation — it is a fundamental human right for patients, who deserve to receive care from healthcare workers with clean hands.</p>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="content-section" id="s2">
+        <h2>Why Hands Spread Infection</h2>
+        <p>Hands act as a bridge between patients, surfaces, and healthcare workers. Microorganisms — including bacteria, viruses, and fungi — can survive on hands for varying lengths of time, enabling onward transmission unless hands are effectively decontaminated.</p>
+
+        <div class="icon-grid">
+          <div class="icon-card">
+            <div class="ic">🦠</div>
+            <div>
+              <h4>Transient Flora</h4>
+              <p>Microorganisms recently acquired from the environment or patient contact. These are easily removed by routine hand hygiene.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">🧬</div>
+            <div>
+              <h4>Resident Flora</h4>
+              <p>Deep-seated organisms that colonise the skin layers. Less easily removed but less commonly associated with infection transmission.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">📍</div>
+            <div>
+              <h4>Contaminated Surfaces</h4>
+              <p>Bed rails, call buttons, and medical equipment harbour pathogens that transfer to hands during routine patient care.</p>
+            </div>
+          </div>
+          <div class="icon-card">
+            <div class="ic">⚡</div>
+            <div>
+              <h4>Rapid Spread</h4>
+              <p>A single contaminated hand can transfer thousands of organisms to surfaces and patients within minutes of contact.</p>
+            </div>
+          </div>
+        </div>
+
+        <p>Studies consistently show that pathogens such as <span class="key-term">MRSA</span>, <span class="key-term">C. difficile</span>, and <span class="key-term">VRE</span> can persist on hands and surfaces for hours — making regular hand hygiene a continuous obligation throughout any shift.</p>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="content-section" id="s3">
+        <h2>Types of Hand Hygiene</h2>
+        <p>Not all hand hygiene is the same. The method chosen depends on the level of contamination, the clinical situation, and the availability of resources.</p>
+
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Method</th>
+              <th>Duration</th>
+              <th>Best For</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Routine Handrub</strong></td>
+              <td>Alcohol-Based Hand Rub (ABHR)</td>
+              <td>20–30 seconds</td>
+              <td>Most clinical situations</td>
+            </tr>
+            <tr>
+              <td><strong>Routine Handwash</strong></td>
+              <td>Soap &amp; water</td>
+              <td>40–60 seconds</td>
+              <td>Visibly soiled hands, C. diff</td>
+            </tr>
+            <tr>
+              <td><strong>Surgical Handrub</strong></td>
+              <td>ABHR, extended technique</td>
+              <td>3–5 minutes</td>
+              <td>Before surgical procedures</td>
+            </tr>
+            <tr>
+              <td><strong>Surgical Handwash</strong></td>
+              <td>Antiseptic soap &amp; water</td>
+              <td>2–5 minutes</td>
+              <td>Surgical prep, nail cleaning</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="info-box">
+          <strong>Important</strong>
+          <p>When hands are not visibly soiled, ABHR is the preferred method as it is faster, more effective against most pathogens, and gentler on skin than soap and water.</p>
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="content-section" id="s4">
+        <h2>When to Clean Your Hands</h2>
+        <p>The WHO developed the <span class="key-term">My 5 Moments for Hand Hygiene</span> framework to help healthcare workers identify the critical points during patient care when hand hygiene must be performed.</p>
+
+        <ul class="numbered-list">
+          <li>
+            <div class="n">1</div>
+            <div class="txt">
+              <strong>Before touching a patient</strong>
+              <span>To protect the patient against harmful germs carried on your hands.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">2</div>
+            <div class="txt">
+              <strong>Before a clean/aseptic procedure</strong>
+              <span>To protect the patient against harmful germs, including the patient's own germs, entering their body.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">3</div>
+            <div class="txt">
+              <strong>After body fluid exposure risk</strong>
+              <span>To protect yourself and the healthcare environment from harmful patient germs.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">4</div>
+            <div class="txt">
+              <strong>After touching a patient</strong>
+              <span>To protect yourself and the healthcare environment from harmful patient germs.</span>
+            </div>
+          </li>
+          <li>
+            <div class="n">5</div>
+            <div class="txt">
+              <strong>After touching patient surroundings</strong>
+              <span>To protect yourself and the healthcare environment from harmful patient germs.</span>
+            </div>
+          </li>
+        </ul>
+
+        <p>These five moments will be explored in depth in <strong>Module 2</strong>. For now, understanding their existence helps frame why any hand hygiene routine must be consistent, not selective.</p>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- MODULE NAV -->
+  <div class="module-nav">
+    <a href="../index.html#modules" class="mod-nav-btn">← Back to Modules</a>
+    <a href="module2.html" class="mod-nav-btn primary">Module 2: WHO 5 Moments →</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">
+      <div class="nav-logo">St. Therese <span>/ Hand Hygiene</span></div>
+      <p>An educational portal by Batangas State University — College of Health Sciences, developed for NCM 110L Nursing Informatics Laboratory.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Modules</h5>
+      <a href="module1.html">Module 1 — Basics</a>
+      <a href="module2.html">Module 2 — WHO 5 Moments</a>
+      <a href="module3.html">Module 3 — ABHR</a>
+      <a href="quiz.html">Quiz</a>
+    </div>
+    <div class="footer-col">
+      <h5>Portal</h5>
+      <a href="../index.html">Home</a>
+      <a href="../index.html#video">Watch</a>
+      <a href="../index.html#why">Why It Matters</a>
+    </div>
+  </footer>
+  <div class="footer-bottom">
+    © 2025 St. Therese de Lisieux Women &amp; Children Medical Center — Hand Hygiene Portal. All rights reserved.
+  </div>
+
+  <script src="../scripts/module.js"></script>
+</body>
+</html>
